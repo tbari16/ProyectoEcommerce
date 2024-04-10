@@ -1,0 +1,183 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    color: black;
+}
+
+body {
+    background-color: rgb(247, 245, 245);
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: auto;
+}
+
+header a{
+    margin-top: 5em;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em; 
+}
+
+.link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7em;
+    height: 2em;
+}
+
+.link a:hover {
+    background-color: rgba(14, 13, 13, 0.685);
+    border-radius: 0.4em;
+    color: white;
+    transition: 0.4s;
+}
+
+/* Carrousel */
+
+.carrousel {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Section */
+
+.columnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 65%;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+/* Components */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.box a {
+    height: 15em;
+    width: 15em;
+    border: solid rgb(224, 223, 223) 0.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.box img {
+    width: 4em;
+    height: 4em;
+}
+
+.components {
+    display: flex;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(216, 213, 206);
+}
+
+ul {
+    padding-left: 0em;
+}
+
+.footer-container{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    height: 3em;
+    width: 3em;
+}
+
+/* Detalles */
+
+a:hover {
+    color: rgb(245, 112, 145);
+}
+
+b {
+    background-color: currentColor;
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+}
+
+h2 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
